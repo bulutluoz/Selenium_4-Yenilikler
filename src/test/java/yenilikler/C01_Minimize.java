@@ -8,7 +8,8 @@ import org.testng.annotations.Test;
         Selenium 3’de var olan window manage ozelliklerine ek olarak minimize() eklendi.
         minimize( ) ile normal hayatta yaptiginiz sekilde window’u sembol olarak asagi indirebilirsiniz.
 
-        1- Asagidaki ornekte amazon anasayfaya gidip 3 saniye gormek icin bekleyip, browser'i minimize yapacagiz
+        Asagidaki ornekte
+        1- amazon anasayfaya gidip 3 saniye gormek icin bekleyip, browser'i minimize yapacagiz
         2- 5 saniye minimize olarak bekleyip sonra tekrar calismak icin browser'i maximize yapacagiz
         3- gormek icin 5 saniye bekleyip kapatacagiz
      */
