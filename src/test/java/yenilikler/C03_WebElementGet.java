@@ -41,6 +41,7 @@ public class C03_WebElementGet {
         */
 
         System.out.println("==========Selenium 4 de gelen yenilikler===========");
+        System.out.println("dom attribute : " + aramaKutusu.getDomAttribute("id"));
         System.out.println("dom property : " + aramaKutusu.getDomProperty("id"));
         System.out.println("accesible name: " + aramaKutusu.getAccessibleName());
         System.out.println("Aria role : " + aramaKutusu.getAriaRole());
