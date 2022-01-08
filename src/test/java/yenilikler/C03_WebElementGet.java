@@ -8,6 +8,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class C03_WebElementGet {
+    /*
+    Selenium 3’de Web Element’ler icin var olan Size, Text, Location ve Rect method’ larina ilave olarak
+    Web Element’in AccessibleName ve Aria role ozelliklerini ogrenebilecegimiz method’lar eklendi
+    ayrica Web Element’in Dom ile erisebilmeniz icin attribute’lerin Dom degeri
+    ve Dom property degerini ogrenebileceginiz method’lar da eklendi
+     */
     WebDriver driver;
     @Test
     public void test01() throws InterruptedException {

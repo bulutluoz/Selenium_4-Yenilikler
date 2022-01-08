@@ -12,6 +12,18 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 
 public class C04_RelativeLocators {
+    /*
+    Selenium 3’de Web Element’leri locate etmek icin kullandigimiz 8 adet locator Selenium 4’de de var
+    Var olan bu method’larin yanina Selenium 4 Devrim gibi bir ozellik eklemis
+    Eklenen RelativeLocator Class’indaki method’lar sayesinde bir web elementi etrafindaki diger web elementler ile tanimlayabilirsiniz
+
+    Bazi web elementlerde developer’lar dinamik ozellikler kullandiklarindan sabit bir locator bulamayabilirsiniz.
+    Ornegin mountie web elementinin id'si dinamik yani her calistiginda farkli bir deger aliyor
+    Bu durumda Selenium 4 imdadiniza yetisip, gunluk hayatimizda kullandigimiz adres tariflerine benzer bir imkan sunuyor.
+    Once with ile var olan her hangi bir ozelligini soyleyip sonra etrafindaki web elementleriyle tarif verebilirsiniz
+    Asagidaki ornekte boston ve sailor web elementlerini locate edip, onlar uzerinden berlin ve mountie web elementlerini locate ettim.
+
+     */
     WebDriver driver;
 
     @Test

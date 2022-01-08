@@ -13,10 +13,9 @@ import java.io.IOException;
         Selenium 3 de ekran fotografi almak mumkundu ancak bir method olusturmak ve onu kullanmak gerekiyordu
         Selenium 4'de tum ekranin fotografini veya istediginiz bir WebElemnt'in goruntusunu kolaylikla alabilirsiniz
         Asagidaki ornekte Amazon sayfasina gidip hem tum sayfanin hem de arama kutusunun fotografini aldim
-
         */
 
-public class C11_ScreenShot {
+public class C07_ScreenShot {
 
     WebDriver driver;
 
